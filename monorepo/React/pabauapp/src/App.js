@@ -12,7 +12,6 @@ import Facials from './services/Facials'
 
 const App = () => {
   return (
-      <Router>
       <>
       <Header />
       <Body />
@@ -21,15 +20,15 @@ const App = () => {
       </div>
       </>
 
-          <Routes>
+          /* <Routes>
             <Route>
                 <Route path="antiwrinkle" element={<AntiWrinkle />} />
                 <Route path="dermafillers" element={<DermaFillers />} />
                 <Route path="secretrf" element={<SecretRF />} />
                 <Route path="facials" element={<Facials />} />
             </Route>
-          </Routes>
-      </Router>
+          </Routes> */
+      
       
   )
 }
